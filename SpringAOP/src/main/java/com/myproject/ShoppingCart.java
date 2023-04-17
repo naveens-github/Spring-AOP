@@ -3,7 +3,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class ShoppingCart {
-    public void checkout(){
+    public void checkout(String name){
 
         //Logging
         //Authentication & Authorization
